@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>insurance profile</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-img">
+          <img src="./images/profile5.jpg" alt="profile-picture" />
+        </div>
+        <div class="header-content">
+          <h1 class="animate__animated animate__bounceInLeft">Sanjeet Sah</h1>
+          <h3 class="animate__animated animate__bounceInRight">Insurance Agent</h3>
+        </div>
+      </div>
+      <div class="content-section">
+        <div class="container">
+          <div class="box-section">
+            <div class="box-content box-content-p">
+              <p>
+                I Am An Experienced Insurance Agent. I Became An Insurance Agent
+                Because I Am Passionate About Helping People In The Community. I
+                Believe It Is My Responsibility As An Insurance Agent To Guide
+                Each Of My Customers Through Their Questions And Provide The
+                Products And Knowledge That Can Serve Them Best.
+              </p>
+            </div>
+            <div class="box-contact box-content">
+              <div class="contactInfo">
+                  <div class="box">
+                      <diiv class="icon"><i class="fa-solid fa-user"></i></diiv>
+                      <div class="text">
+                          <h3>Name</h3>
+                          <p>Sanjeet Sah Sha Sha</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <diiv class="icon"><i class="fa fa-phone"></i></diiv>
+                      <div class="text">
+                          <h3>Phone</h3>
+                          <p>1234567898</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <diiv class="icon"><i class="fa-brands fa-whatsapp"></i></i></diiv>
+                      <div class="text">
+                          <h3>whatsapp</h3>
+                          <p>1234567893</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <diiv class="icon"><i class="fa fa-envelope"></i></diiv>
+                      <div class="text">
+                          <h3>E-mail</h3>
+                          <p>uddinfaruk467@gmail.com</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swaper-slider-section">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="box-1 box">
+                      <div class="img-box">
+                          <img src="./images/Bharti_AXA.jpg" alt="Bharti AXA">
+                      </div>
+                      <div class="content-box">
+                          <p>	Bharti AXA Life Insurance Company Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-2 box">
+                      <div class="img-box">
+                          <img src="./images/Kotak-Life-Insurance-Company.jpg" alt="">
+                      </div>
+                      <div class="content-box">
+                          <p>Kotak Mahindra Life Insurance Co. Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-3 box">
+                      <div class="img-box">
+                          <img src="./images/max-life.jpg" alt="">
+                      </div>
+                      <div class="content-box">
+                          <p>Max Life Insurance Co. Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-3 box">
+                      <div class="img-box">
+                          <img src="./images/max-life.jpg" alt="">
+                      </div>
+                      <div class="content-box">
+                          <p>Max Life Insurance Co. Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-3 box">
+                      <div class="img-box">
+                          <img src="./images/max-life.jpg" alt="">
+                      </div>
+                      <div class="content-box">
+                          <p>Max Life Insurance Co. Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box-3 box">
+                      <div class="img-box">
+                          <img src="./images/max-life.jpg" alt="">
+                      </div>
+                      <div class="content-box">
+                          <p>Max Life Insurance Co. Ltd.</p>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+          </div>
+      </div>
+    </header>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        loop:true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
